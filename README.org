@@ -1,0 +1,20 @@
+#+TITLE: mouse_reach_rigs
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+
+* Library Information
+- Name :: mouse_reach_rigs
+- Version :: 1.0.0
+- License :: BSD
+- URL :: https://github.com/janelia-experimental-technology/mouse_reach_rigs
+- Author :: Peter Polidoro
+- Email :: peter@polidoro.io
+
+** Description
+
+Mouse reach rigs for the Hantman and Dudman labs.
+
+* Webpage Documentation
+
+[[https://janelia-experimental-technology.github.io/mouse_reach_rigs/]]
+
