@@ -1,12 +1,23 @@
-#+TITLE: MouseReachRotaryController
+#+TITLE: MouseReachLinearController
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peter@polidoro.io
 
 * Assembly
 
-** Stepper Motor
+** Actuators
 
-[[./datasheets/SY42STH38-1684A.pdf][SY42STH38-1684A]]
+*** Linear Actuator 0
+
+[[./datasheets/haydon-g4-25000-data-1025.pdf][25544-12-910]]
+
+1) Trim motor wires to 40mm.
+2) Strip 6mm of insulation from each motor wire.
+3) Crimp ferrule connector onto each motor wire.
+4) Remove 4 screws from the back of the motor.
+
+*** Linear Actuators 1 and 2
+
+[[./datasheets/rgs04sz1117data1030.pdf][RGS04K-M0250-A39]]
 
 1) Trim motor wires to 40mm.
 2) Strip 6mm of insulation from each motor wire.
@@ -22,24 +33,25 @@
 1) Solder the 3 jumper pads together connecting the PDN and UART pins on the
    TMC2209 SilentStepStick.
 2) Solder the 2 8-pin headers onto the TMC2209 SilentStepStick.
-3) Insert TMC2209 SilentStepStick into the stepper_driver board.
+3) Insert TMC2209 SilentStepStick into the Janelia stepper driver board.
 4) Use a sticky thermal pad to attach a heat sink onto the TMC2209
    SilentStepStick.
 5) Strip 6mm of insulation from each wire on the power jack cable.
 6) Crimp ferrule connector onto each wire on the power jack cable.
 7) Attach marked power jack cable wire into the positive pin of the
-   stepper_driver board power connector.
+   Janelia stepper driver board power connector.
 8) Attach the second power jack cable wire into the ground pin of the
-   stepper_driver board power connector.
+   Janelia stepper driver board power connector.
 
 ** Motor and Driver Assembly
 
-1) Attach the stepper_driver board to the back of the motor using 4 spacers and
-   4 screws with the 4-pin connector oriented closest to the motor wires.
-2) Attach motor wires to the 4-pin connector on the stepper_driver according to
-   the wiring diagram.
-3) Attach ribbon cable to the stepper_driver board oriented so the ribbon cable
-   points towards the motor wires.
+1) Attach the Janelia stepper driver board to the back of the motor using 4
+   spacers and 4 screws with the 4-pin connector oriented closest to the motor
+   wires.
+2) Attach motor wires to the 4-pin connector on the Janelia stepper driver
+   according to the wiring diagram.
+3) Attach ribbon cable to the Janelia stepper driver board oriented so the
+   ribbon cable points towards the motor wires.
 
 ** Mouse Reach Controller
 
