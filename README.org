@@ -18,3 +18,16 @@ Mouse reach rigs for the Hantman and Dudman labs.
 
 [[https://janelia-experimental-technology.github.io/mouse_reach_rigs/]]
 
+* Mouse Reach Rotary Rig
+
+[[./MouseReachRotaryRig.org]]
+
+* Mouse Reach Linear Rig
+
+[[./MouseReachLinearRig.org]]
+
+* Mouse Reach Joystick Rig
+
+[[./MouseReachJoystickRig.org]]
+
+

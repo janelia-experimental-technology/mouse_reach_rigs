@@ -1,0 +1,18 @@
+#+TITLE: MouseReachJoystickRig
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+
+* Mouse Reach Joystick Rig
+
+** Repositories
+
+*** Hardware
+
+[[https://github.com/janelia-kicad/mouse_reach_controller][Mouse Reach Controller]]
+
+[[https://github.com/janelia-kicad/stepper_driver][Stepper Driver]]
+
+*** Firmware
+
+[[https://github.com/janelia-arduino/MouseReachJoystickController][Mouse Reach Joystick Controller]]
+

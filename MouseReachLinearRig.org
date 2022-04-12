@@ -1,21 +1,44 @@
-#+TITLE: MouseReachLinearController
+#+TITLE: MouseReachLinearRig
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peter@polidoro.io
 
-* Assembly
+* Mouse Reach Linear Rig
 
-** Actuators
+** Repositories
 
-*** Linear Actuator 0
+*** Hardware
+
+[[https://github.com/janelia-kicad/mouse_reach_controller][Mouse Reach Controller]]
+
+[[https://github.com/janelia-kicad/stepper_driver][Stepper Driver]]
+
+*** Firmware
+
+[[https://github.com/janelia-arduino/MouseReachLinearController][Mouse Reach Linear Controller]]
+
+** Assembly
+
+*** Actuators
+
+**** Linear Actuator 0
+
+***** Stepper Motor
 
 [[./datasheets/haydon-g4-25000-data-1025.pdf][25544-12-910]]
 
-1) Trim motor wires to 40mm.
+1) Trim motor wires to 60mm.
 2) Strip 6mm of insulation from each motor wire.
 3) Crimp ferrule connector onto each motor wire.
 4) Remove 4 screws from the back of the motor.
 
-*** Linear Actuators 1 and 2
+***** Limit Switch
+
+1) Cut a 2-wire cable to 100mm.
+2) Solder
+
+**** Linear Actuators 1 and 2
+
+***** Stepper Motor
 
 [[./datasheets/rgs04sz1117data1030.pdf][RGS04K-M0250-A39]]
 
@@ -24,7 +47,9 @@
 3) Crimp ferrule connector onto each motor wire.
 4) Remove 4 screws from the back of the motor.
 
-** Stepper Driver
+***** Limit Switch
+
+*** Stepper Driver
 
 [[./datasheets/TMC2209_SilentStepStick_datasheet_Rev1.20.pdf][TMC2209 SilentStepStick]]
 
@@ -43,7 +68,7 @@
 8) Attach the second power jack cable wire into the ground pin of the
    Janelia stepper driver board power connector.
 
-** Motor and Driver Assembly
+*** Motor and Driver Assembly
 
 1) Attach the Janelia stepper driver board to the back of the motor using 4
    spacers and 4 screws with the 4-pin connector oriented closest to the motor
@@ -53,7 +78,7 @@
 3) Attach ribbon cable to the Janelia stepper driver board oriented so the
    ribbon cable points towards the motor wires.
 
-** Mouse Reach Controller
+*** Mouse Reach Controller
 
 
 
