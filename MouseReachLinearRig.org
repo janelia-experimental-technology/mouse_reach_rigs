@@ -80,5 +80,23 @@
 
 *** Mouse Reach Controller
 
+** Setup
+
+*** Host Computer
+
+**** TigerVNC
+
+[[https://tigervnc.org/][TigerVNC]]
+
+***** Setup Server
+
+[[https://github.com/TigerVNC/tigervnc/wiki/Setup-TigerVNC-server-%28Windows%29][Setup TigerVNC server (Windows)]]
+
+**** Install Arduino IDE and Teensyduino
+
+[[https://github.com/janelia-arduino/arduino_setup/blob/master/ARDUINO_SETUP_WINDOWS.org][ARDUINO_SETUP_WINDOWS]]
+
+
+
 
 
